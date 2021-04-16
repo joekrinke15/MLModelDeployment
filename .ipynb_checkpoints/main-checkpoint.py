@@ -1,17 +1,31 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 import requests
-from sklearn.externals import joblib
 import pandas as pd
+import pickle
 
 app = Flask(__name__)
+def load_model():
+    """
+    Loads model
+    """
+    model = pickle.load(open('MedCostModel.pkl', 'rb'))
+    return(model)
+
+@app.route("/")
+def home():
+    """
+    Homepage for site
+    """
+    html = f"<h3>Predicting Medical Expenditures with Sklearn</h3>"
+    return html.format(format)
+
 @app.route('/predict', methods=['POST'])
 def predict():
-     json_ = request.json
-     query_df = pd.DataFrame(json_)
-     query = pd.get_dummies(query_df)
-     prediction = clf.predict(query)
+     input = request.json
+     query_df = pd.DataFrame(input, index =[0])
+     prediction = model.predict(query_df)
      return jsonify({'prediction': list(prediction)})
     
 if __name__ == '__main__':
-     clf = joblib.load('MedCostModel.sav')
+     model = load_model()
      app.run(port=8080)
