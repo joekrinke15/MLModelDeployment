@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, render_template
 import requests
 import pandas as pd
 import pickle
@@ -16,11 +16,13 @@ def home():
     """
     Homepage for site
     """
-    html = f"<h3>Predicting Medical Expenditures with Sklearn</h3>"
-    return html.format(format)
+    return render_template('index.html')
 
 @app.route('/predict', methods=['POST'])
-def predict():
+def predict():\
+    """
+    inputs = request.form.to_dict(flat=False)
+    """
      input = request.json
      query_df = pd.DataFrame(input, index =[0])
      prediction = model.predict(query_df)

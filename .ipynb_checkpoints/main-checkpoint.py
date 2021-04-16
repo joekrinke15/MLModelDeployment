@@ -16,8 +16,7 @@ def home():
     """
     Homepage for site
     """
-    html = f"<h3>Predicting Medical Expenditures with Sklearn</h3>"
-    return html.format(format)
+    return render_template('index.html')
 
 @app.route('/predict', methods=['POST'])
 def predict():
