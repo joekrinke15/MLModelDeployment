@@ -19,7 +19,7 @@ def home():
     return render_template('index.html')
 
 @app.route('/predict', methods=['POST'])
-def predict():\
+def predict():
     """
     inputs = request.form.to_dict(flat=False)
     """
