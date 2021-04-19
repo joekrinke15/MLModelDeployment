@@ -23,10 +23,10 @@ def predict():\
     """
     inputs = request.form.to_dict(flat=False)
     """
-     input = request.json
-     query_df = pd.DataFrame(input, index =[0])
-     prediction = model.predict(query_df)
-     return jsonify({'prediction': list(prediction)})
+    input = request.json
+    query_df = pd.DataFrame(input, index =[0])
+    prediction = model.predict(query_df)
+    return jsonify({'prediction': list(prediction)})
     
 if __name__ == '__main__':
      model = load_model()
