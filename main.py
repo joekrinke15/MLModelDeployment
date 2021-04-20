@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 import numpy as np
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder = 'Template')
 
 def get_dummies(data):
     categorical_vars = ['sex' , 'smoker', 'region']
