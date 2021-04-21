@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 import numpy as np
 
-app = Flask(__name__, template_folder = 'Templates')
+app = Flask(__name__, template_folder = 'templates')
 
 def get_dummies(data):
     categorical_vars = ['sex' , 'smoker', 'region']
@@ -60,4 +60,6 @@ def result():
     
 if __name__ == '__main__':
      model = load_model()
-     app.run(host='0.0.0.0', port=8080)
+     app.run(port=8080)
+    
+    
