@@ -2,3 +2,4 @@ flask
 sklearn
 pandas
 numpy
+requests
