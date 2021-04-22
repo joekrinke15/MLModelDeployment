@@ -60,6 +60,6 @@ def result():
     
 if __name__ == '__main__':
      model = load_model()
-     app.run(host =. '0.0.0.0', port=8080)
+     app.run(host = '0.0.0.0', port=8080)
     
     
