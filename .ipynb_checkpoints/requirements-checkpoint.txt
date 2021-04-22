@@ -3,4 +3,3 @@ sklearn == 0.23.1
 pandas
 numpy
 requests
-locust
