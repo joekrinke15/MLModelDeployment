@@ -2,7 +2,7 @@
 This project is a containerized auto-scaling ML application to predict medical expenditures hosted on AWS. 
 
 # Architecture
-
+![Architecture](https://raw.githubusercontent.com/joekrinke15/MLModelDeployment/master/MLFinalProject.png)
 # User Interface 
 ## Index Page
 
