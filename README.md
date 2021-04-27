@@ -36,3 +36,7 @@ Here is the response:
 ```
 {"prediction":[3284.857731772743]}
 ```
+
+# Team Members
+[Derek Wales](https://www.linkedin.com/in/derek-wales/)
+[Joe Krinke](https://www.linkedin.com/in/joe-krinke/)
