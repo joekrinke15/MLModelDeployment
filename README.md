@@ -38,5 +38,6 @@ Here is the response:
 ```
 
 # Team Members
-[Derek Wales](https://www.linkedin.com/in/derek-wales/)
-[Joe Krinke](https://www.linkedin.com/in/joe-krinke/)
+[Derek Wales](https://www.linkedin.com/in/derek-wales/), Duke MIDS 
+
+[Joe Krinke](https://www.linkedin.com/in/joe-krinke/), Duke MIDS
