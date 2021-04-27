@@ -1,6 +1,8 @@
 # Project Description
 This project is a containerized auto-scaling ML application to predict medical expenditures hosted on AWS. 
 
+You can view a project overview video [here](https://www.loom.com/share/42666a4787a140ab8680d42d2931d8b3).
+
 # Architecture
 ![Architecture](https://raw.githubusercontent.com/joekrinke15/MLModelDeployment/master/MLFinalProject.png)
 # User Interface 
