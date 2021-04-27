@@ -1,14 +1,16 @@
 # Project Description
 This project is a containerized auto-scaling ML application to predict medical expenditures hosted on AWS. 
 
-# Architecture
+You can view a project overview video [here](https://www.loom.com/share/42666a4787a140ab8680d42d2931d8b3).
 
+# Architecture
+![Architecture](https://raw.githubusercontent.com/joekrinke15/MLModelDeployment/master/MLFinalProject.png)
 # User Interface 
 ## Index Page
 
 ![Index](https://raw.githubusercontent.com/joekrinke15/MLModelDeployment/master/UI.PNG)
 
-## Prediction page
+## Prediction Page
 ![Prediction](https://raw.githubusercontent.com/joekrinke15/MLModelDeployment/master/SampleOutput.PNG)
 # Sample Web API Call
 
@@ -36,3 +38,8 @@ Here is the response:
 ```
 {"prediction":[3284.857731772743]}
 ```
+
+# Team Members
+[Derek Wales](https://www.linkedin.com/in/derek-wales/), Duke MIDS 
+
+[Joe Krinke](https://www.linkedin.com/in/joe-krinke/), Duke MIDS
