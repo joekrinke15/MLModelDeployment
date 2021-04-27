@@ -3,7 +3,7 @@ This project is a containerized auto-scaling ML application to predict medical e
 
 You can view a project overview video [here](https://www.loom.com/share/42666a4787a140ab8680d42d2931d8b3).
 
-A more detailed written description of the project can be found [here](https://github.com/joekrinke15/MLModelDeployment/raw/master/derek-joe-write-up.pdf)
+A more detailed written description of the project can be found [here](https://github.com/joekrinke15/MLModelDeployment/raw/master/derek-joe-write-up.pdf).
 
 # Architecture
 ![Architecture](https://raw.githubusercontent.com/joekrinke15/MLModelDeployment/master/MLFinalProject.png)
