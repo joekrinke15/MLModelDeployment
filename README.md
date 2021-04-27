@@ -5,8 +5,6 @@ You can view a project overview video [here](https://www.loom.com/share/42666a47
 
 A more detailed written description of the project can be found [here](https://github.com/joekrinke15/MLModelDeployment/raw/master/derek-joe-write-up.pdf).
 
-# Architecture
-![Architecture](https://raw.githubusercontent.com/joekrinke15/MLModelDeployment/master/MLFinalProject.png)
 # User Interface 
 ## Index Page
 
@@ -40,6 +38,8 @@ Here is the response:
 ```
 {"prediction":[3284.857731772743]}
 ```
+# Architecture
+![Architecture](https://raw.githubusercontent.com/joekrinke15/MLModelDeployment/master/MLFinalProject.png)
 
 # Team Members
 [Derek Wales](https://www.linkedin.com/in/derek-wales/), Duke MIDS 
