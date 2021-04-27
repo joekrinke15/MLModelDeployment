@@ -8,7 +8,7 @@ This project is a containerized auto-scaling ML application to predict medical e
 
 ![Index](https://raw.githubusercontent.com/joekrinke15/MLModelDeployment/master/UI.PNG)
 
-## Prediction page
+## Prediction Page
 ![Prediction](https://raw.githubusercontent.com/joekrinke15/MLModelDeployment/master/SampleOutput.PNG)
 # Sample Web API Call
 
