@@ -1,4 +1,4 @@
 # Project Description
-Deploying a scikit-learn model in the cloud.
+This project is a containerized auto-scaling ML application to predict medical expenditures hosted on AWS. 
 
 # Architecture
