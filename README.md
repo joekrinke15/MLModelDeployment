@@ -15,11 +15,17 @@ This project is a containerized auto-scaling ML application to predict medical e
 Here is a sample call to the API with the following parameters:
 
 Age: 23
+
 BMI: 25
+
 Number of Children: 3
+
 Sex: Male
+
 Smoking Status: Yes
+
 Region: Southwest
+
 Host IP Address: 54.224.27.206
 
 ```
@@ -28,4 +34,5 @@ curl -v -H "Content-Type:application/json" -X POST -d "{\"age\":23, \"bmi\":25, 
 
 Here is the response:
 ```
+{"prediction":[3284.857731772743]}
 ```
