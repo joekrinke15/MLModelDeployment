@@ -4,7 +4,10 @@ This project is a containerized auto-scaling ML application to predict medical e
 # Architecture
 
 # User Interface 
-
+Index Page
+![Index](https://raw.githubusercontent.com/joekrinke15/MLModelDeployment/master/UI.PNG)
+Prediction page
+![Prediction](https://raw.githubusercontent.com/joekrinke15/MLModelDeployment/master/SampleOutput.PNG)
 # Sample Web API Call
 
 Here is a sample call to the API with the following parameters:
